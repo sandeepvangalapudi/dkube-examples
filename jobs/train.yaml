@@ -1,5 +1,5 @@
 name: ins-cicd
-user: larryc    # DKube login user name
+user: ocdkube30   # DKube login user name
 parameters:
   class: training
   training:
@@ -15,7 +15,7 @@ parameters:
     datums:
       workspace:
         data:
-          name: 'larryc:ins-lc-cicd'    # <Dkube login name>:<Code repo name>
+          name: 'ocdkube30:sandeepvangalapudi'    # <Dkube login name>:<Code repo name>
           version: ''
         script: python insurance/training.py
       datasets:
